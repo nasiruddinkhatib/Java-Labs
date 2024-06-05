@@ -1,0 +1,24 @@
+package basic;
+
+import java.util.Scanner;
+
+public class Calculator {
+    public static void main(String[] args) {
+        int a, b, sum, diff, prod, quo, rem;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of a and b ");
+        a = sc.nextInt();
+        b = sc.nextInt();
+        sum = a + b;
+        diff = a - b;
+        prod = a * b;
+        quo = a / b;
+        rem = a % b;
+        System.out.println("Sum is " + sum);
+        System.out.println("Difference is " + diff);
+        System.out.println("Product is " + prod);
+        System.out.println("Quotient is " + quo);
+        System.out.println("Remainder is " + rem);
+
+    }
+}
